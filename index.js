@@ -4,7 +4,7 @@ var req = unirest("GET", "https://secure.smslink.ro/sms/gateway/communicate/inde
 
 /* 
 
-  Get your SMS Gateway Connection ID and Password from 
+  Get your SMSLink / SMS Gateway Connection ID and Password from 
   https://www.smslink.ro/get-api-key/
 
 */
