@@ -9,6 +9,13 @@ var req = unirest("GET", "https://secure.smslink.ro/sms/gateway/communicate/inde
 
 */
 
+/*
+
+  HTTPS API Endpoint:  https://secure.smslink.ro/sms/gateway/communicate/index.php
+  HTTP API Endpoint:   http://www.smslink.ro/sms/gateway/communicate/index.php
+
+*/
+
 req.query({
 	"to": "07xyzzzzzz",
 	"message": "My Test Message",
